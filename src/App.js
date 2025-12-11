@@ -14,8 +14,7 @@ const App = () => {
     const getTodos = async () => {
       const options = {
         method: "GET",
-      };
-
+      };
       const getResponse = await fetch("https://todo-backend-cq44.onrender.com/todos", options);
       const actualResponse = await getResponse.json();
       updateTodo(actualResponse);
