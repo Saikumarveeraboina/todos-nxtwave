@@ -1,8 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrash } from "@fortawesome/free-solid-svg-icons";
 
-import "./index.css";
-
+import "./index.css";
 const TodoItem = (props) => {
   const { each, deleteFun, todosListUpdateFuncPass, todosList, checkStatus } =
     props;
